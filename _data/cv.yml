@@ -1,32 +1,36 @@
-# - title: General Information
-#   type: map
-#   contents:
-#     - name: Full Name
-#       value: Ming Xiang
-#     # - name: Date of Birth
-#     #   value: 14th March 1879
-#     - name: Languages
-#       value: English, Mandarin
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Ming Xiang
+    # - name: Date of Birth
+    #   value: 14th March 1879
+    - name: Languages
+      value: English (Fluent), Mandarin (Native).
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Northeastern University, Boston, USA.
+      year: 2021.09 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Major in <i>Electrical Engineering</i>;
+        - Advised by <a href="https://lilisu3.sites.northeastern.edu">Prof. Lili Su</a>.
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    - title: M.S.
+      institution: Wuhan University, Wuhan, China.
+      year: 2018.09 - 2021.06
       description:
-        - Description 1.
-        - Description 2.
+        - Major in <i>Electrical Engineering</i>.
+    - title: B.S.
+      institution: Wuhan University, Wuhan, China.
+      year: 2014.09 - 2018.06
+      description:
+        - Major in <i>Electrical Engineering</i>.
 
 # - title: Experience
 #   type: time_table
@@ -68,16 +72,14 @@
 #       year: 2015-now
 #       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
+- title: Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - year: 2023.09.01
+      description: 1111
+    # - year: 2029
+      # items: 
+        # - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list

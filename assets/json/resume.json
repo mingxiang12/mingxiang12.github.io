@@ -1,21 +1,9 @@
 {
   "basics": {
-    "Full Name": "Ming Xiang"
-    // "Language": "English (Fluent), Mandarin (Native)"
+    "Full Name": "Ming Xiang",
+    "Language": ""
   },
-  // "work": [
-  //   {
-  //     "name": "Institute for Advanced Study, Princeton University",
-  //     "position": "Professor of Theoretical Physics",
-  //     "url": "https://example.com",
-  //     "startDate": "1933-01-01",
-  //     "endDate": "1955-01-01",
-  //     "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-  //     "highlights": [
-  //       "Relativity"
-  //     ]
-  //   }
-  // ],
+  "work": [],
   "volunteer": [],
   "education": [
     {
@@ -52,18 +40,21 @@
   "awards": [
     {
       "title": "2023 CDC Student Travel Award",
+      "url":"https://cdc2023.ieeecss.org",
       "date": "2023-09-01",
       "awarder": "IEEE Conference on Decision and Control 2023",
       "summary": ""
     },
     {
       "title": "Outstanding Graduate Research Award",
+      "url":"https://coe.northeastern.edu/news/2023-coe-outstanding-graduate-student-awards",
       "date": "2023-04-28",
       "awarder": "College of Engineering at Northeastern University",
       "summary": ""
     },
     {
       "title": "China National Scholarship",
+      "url":"http://www.moe.gov.cn/srcsite/A05/s7505/201601/t20160120_228481.html",
       "date": "2015-12-31",
       "awarder": "Ministry of Education of the People's Republic of China",
       "summary": ""
