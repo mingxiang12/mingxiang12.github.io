@@ -1,84 +1,54 @@
 ---
 ---
+@string{ieee = {IEEE}}
 
-@string{aps = {American Physical Society,}}
+@inproceedings{xiang2023towards,
+selected=true,
+abbr={CDC 2023},
+bibtex_show={true},
+booktitle={2023 IEEE 62st Conference on Decision and Control (CDC)},
+title={Towards Bias Correction of FedAvg over Nonuniform and Time-Varying Communications},
+author={Xiang, Ming and Ioannidis, Stratis and Yeh, Edmund and Joe-Wong, Carlee and Su, Lili},
+year={2023},
+abstract={
+<p>
+Federated learning (FL) is a decentralized machine learning framework wherein a parameter server (PS) and a collection of clients collaboratively 
+trains a model.  
+Communication bandwidth is a scarce resource. In each round, the PS aggregates the updates from a subset of clients only. 
+In this paper, we consider non-uniform and  time-varying communication between the PS and the clients. Specifically, in each round <i>t</i>, the link between the PS and client <i>i</i> is active with probability <it>p</it><sub>i</sub><sup>t</sup>, which is unknown to both the PS and the clients. 
+This arises when 
+the channel conditions are heterogeneous across clients and are changing over time.  
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+We show that when the <i>p</i><sub>i</sub><sup>t</sup>'s are not uniform (i.e., not identical over <i>i</i>), Federated Average (FedAvg) -- the most widely adopted FL algorithm -- fails to minimize the global objective. Observing this, we propose Federated Postponed Broadcast (FedPBC) which is a simple variant of FedAvg; it differs from FedAvg in that the PS postpones broadcasting the global model till the end of each round.  
+FedPBC converges to a stationary point. 
+Moreover, the staleness is mild and there is no significant slowdown. Both theoretical analysis and numerical results are provided. 
+On the technical front,
+postponing the global model broadcasts enables implicit gossiping among the clients with active links at round <i>t</i>. 
+Consequently, we are able to control the perturbation of the global model dynamics caused by non-uniform and time-varying <i>p</i><sub>i</sub><sup>t</sup> via the techniques of controlling gossip-type information mixing errors.
+</p>
+},
+arxiv={2306.00280},
+publisher = ieee
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{xiang2020state,
+abbr={IEEE Access},
+bibtex_show={true},
+title={State-of-health prognosis for lithium-ion batteries considering the limitations in measurements via maximal information entropy and collective sparse variational gaussian process},
+author={Xiang, Ming and He, Yigang and Zhang, Hui and Zhang, Chaolong and Wang, Lei and Wang, Chenyuan and Sui, Chunsong},
+journal={IEEE Access},
+volume={8},
+pages={188199--188217},
+year={2020},
+publisher={IEEE},
+html={https://ieeexplore.ieee.org/document/9216154}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{xiang2023federateddp,
+abbr={Submitted},
+title={Federated SGD with Differentially Private and Byzantine Resilient One-Bit Compressors},
+author={Xiang, Ming and Su, Lili},
+year={2023},
+publisher={IEEE},
+arxiv={2210.00665}
 }

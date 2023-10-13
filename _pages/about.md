@@ -2,25 +2,29 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+# subtitle: <a href='https://ece.northeastern.edu/'>Department of ECE, Northeastern University</a>. 
+# Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+      <p>On Brooklyn Bridge in New York City, NY, USA.</p>
+  #   <p>R306,</p>
+  #   <p>140 The Fenway,</p>
+  #   <p>Boston, MA 02215</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-This is some random text -- this should change frontend
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a third-year Ph.D. candidate in the Center for *Signal Processing, Imaging, Reasoning, and Learning* <a href='https://web.northeastern.edu/spiral/'>(SPIRAL)</a>, affiliated with the <a href='https://ece.northeastern.edu/'>Department of Electrical and Computer Engineering</a> at Northeastern University in Boston, MA. I am fortunate to be advised by <a href='https://lilisu3.sites.northeastern.edu'> Prof. Lili Su</a>. I received my B.S. and M.S. degrees in Electrical Engineering all from Wuhan Univeristy.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My current research interest lies in the intersection of optimization, distributed computing, fault-tolerance and machine learning. Concretely, recent work focuses mostly on robust and efficient federated learning with provable guarantees. 
+In general, the goal is to design statistical-sound algorithms that are also robust to system faults and efficient in implementation at the same time. 
+Faults may arise from various sources, including communication issues, hardware/software constraints, malfunctions, etc.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am open to **collaboration and internships.**
+If you find my research interesting, please feel free to send me an <a href="mailto:xiang.mi@northeastern.edu"> email</a>.
