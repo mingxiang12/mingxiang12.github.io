@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 I am a third-year Ph.D. candidate in the Center for *Signal Processing, Imaging, Reasoning, and Learning* <a href='https://web.northeastern.edu/spiral/'>(SPIRAL)</a>, affiliated with the <a href='https://ece.northeastern.edu/'>Department of Electrical and Computer Engineering</a> at Northeastern University in Boston, MA. I am fortunate to be advised by <a href='https://lilisu3.sites.northeastern.edu'> Prof. Lili Su</a>. I received my B.S. and M.S. degrees in Electrical Engineering from Wuhan Univeristy.
 
-My research interest lies in the intersection of optimization, distributed computing, fault-tolerance and machine learning. 
+My research interest lies at the intersection of optimization, distributed computing, fault-tolerance and machine learning. 
 In general, the goal is to design statistical-sound distributed algorithms that are also robust to system faults and efficient in implementation at the same time. 
 Faults may arise from various sources, including communication issues, hardware/software constraints, malfunctions, etc.
 
