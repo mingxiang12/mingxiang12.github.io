@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I received **2024 NeurIPS NeurIPS 2024 Scholar Award**. Look forward to seeing everyone in Vancouver, Canada this December!
+I received **NeurIPS 2024 Scholar Award**. Look forward to seeing everyone in Vancouver, Canada this December!
