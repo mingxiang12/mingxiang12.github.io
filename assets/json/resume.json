@@ -39,6 +39,27 @@
   ],
   "awards": [
     {
+      "title": "2024 NeurIPS Scholar Award",
+      "url":"https://neurips.cc/Conferences/2024/",
+      "date": "2024-10-11",
+      "awarder": "The 38th Annual Conference on Neural Information Processing Systems",
+      "summary": ""
+    },
+    {
+      "title": "2024 SIGMETRICS Student Research Competition 3rd Place",
+      "url":"https://www.sigmetrics.org/sigmetrics2024/student_activities.html",
+      "date": "2024-06-14",
+      "awarder": "ACM SIGMETRICS 2024",
+      "summary": ""
+    },
+    {
+      "title": "2024 SIMETRICS Student Travel Award",
+      "url":"https://www.sigmetrics.org/sigmetrics2024/",
+      "date": "2024-05-13",
+      "awarder": "ACM SIGMETRICS 2024",
+      "summary": ""
+    },
+    {
       "title": "2023 CDC Student Travel Award",
       "url":"https://cdc2023.ieeecss.org",
       "date": "2023-09-01",

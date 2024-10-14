@@ -4,6 +4,47 @@
 
 @inproceedings{xiang2023towards,
 selected=true,
+abbr={NeurIPS 2024},
+bibtex_show={true},
+booktitle={The 38th Annual Conference on Neural Information Processing Systems (NeurIPS 2024)},
+title={Efficient Federated Learning against Heterogeneous and Non-stationary Client Unavailability},
+author={Xiang, Ming and Ioannidis, Stratis and Yeh, Edmund and Joe-Wong, Carlee and Su, Lili},
+year={2024},
+abstract={
+<p>
+Addressing intermittent client availability is critical for the real-world deployment of federated learning algorithms. 
+Most prior work either overlooks the potential non-stationarity in the dynamics of client unavailability or requires substantial memory/computation overhead. 
+We study federated learning in the presence of heterogeneous and non-stationary client availability, which may occur when the deployment environments are uncertain or the clients are mobile. 
+The impacts of the heterogeneity and non-stationarity in client unavailability can be significant, as we illustrate using FedAvg, the most widely adopted federated learning algorithm. 
+We propose FedAPM, which includes novel algorithmic structures that (i) compensate for missed computations due to unavailability with only <it>O(1)</it> additional memory and computation with respect to standard FedAvg, and (ii) evenly diffuse local updates within the federated learning system through implicit gossiping, despite being agnostic to non-stationary dynamics. 
+We show that FedAPM converges to a stationary point of even non-convex objectives while achieving the desired linear speedup property. 
+We corroborate our analysis with numerical experiments over diversified client unavailability dynamics on real-world data sets.
+</p>
+},
+arxiv={2409.17446}
+}
+
+
+@article{xiang2024empowering,
+abbr={Submitted},
+title={Empowering Federated Learning with Implicit Gossiping: Mitigating Connection Unreliability Amidst Unknown and Arbitrary Dynamics},
+author={Xiang, Ming and Ioannidis, Stratis and Yeh, Edmund and Joe-Wong, Carlee and Su, Lili},
+year={2024},
+publisher={IEEE},
+arxiv={2404.10091}
+}
+
+@article{Su2023adversarial,
+abbr={Submitted},
+title={Federated Learning in the Presence of Adversarial Client Unavailability},
+author={Su, Lili and Xiang, Ming and Xu, Jiaming and Yang, Pengkun},
+year={2023},
+publisher={IEEE},
+arxiv={2305.19971}
+}
+
+@inproceedings{xiang2023towards,
+selected=true,
 abbr={CDC 2023},
 bibtex_show={true},
 booktitle={2023 IEEE 62st Conference on Decision and Control (CDC)},
