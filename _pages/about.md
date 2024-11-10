@@ -10,9 +10,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-      <p>On Brooklyn Bridge in New York City, NY, USA.</p>
-  #   <p>R306,</p>
-  #   <p>140 The Fenway,</p>
+
+  #   <p>EXP,</p>
+  #   <p>Northeastern University,</p>
   #   <p>Boston, MA 02215</p>
 
 news: true  # includes a list of news items
