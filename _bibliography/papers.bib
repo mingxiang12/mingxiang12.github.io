@@ -2,7 +2,36 @@
 ---
 @string{ieee = {IEEE}}
 
-@inproceedings{xiang2023towards,
+@ARTICLE{xiang2024empowering,
+  author={Xiang, Ming and Ioannidis, Stratis and Yeh, Edmund and Joe-Wong, Carlee and Su, Lili},
+  journal={IEEE Transactions on Signal Processing}, 
+  title={Empowering Federated Learning With Implicit Gossiping: Mitigating Connection Unreliability Amidst Unknown and Arbitrary Dynamics}, 
+  year={2025},
+  volume={73},
+  number={},
+  pages={766-780},
+  bibtex_show={true},
+  keywords={Servers;Uplink;Federated learning;Vehicle dynamics;Training;Stochastic processes;Distance learning;Computer aided instruction;Smart phones;Convergence;Federated learning;communication failures;gossiping;non-convex optimization;fault-tolerance},
+  doi={10.1109/TSP.2025.3526782},
+  arxiv={2404.10091},
+  abstract={
+  <p>
+  Federated learning is a popular distributed learning approach for training a machine learning model without disclosing raw data. 
+  It consists of a parameter server and a possibly large collection of clients (e.g., in cross-device federated learning) that may operate in congested and changing environments. 
+  In this paper, we study federated learning in the presence of stochastic and dynamic communication failures wherein the uplink between the parameter server and client <i>i</i> is on with unknown probability <i>p</i><sub>i</sub><sup>t</sup> in round t. 
+  Furthermore, we allow the dynamics of <i>p</i><sub>i</sub><sup>t</sup> to be arbitrary. 
+  We first demonstrate that when the <i>p</i><sub>i</sub><sup>t</sup>'s vary across clients, the most widely adopted federated learning algorithm, Federated Average (FedAvg), experiences significant bias. 
+  To address this observation, we propose Federated Postponed Broadcast (FedPBC), a simple variant of FedAvg. 
+  It differs from FedAvg in that the parameter server postpones broadcasting the global model to the clients with active uplinks till the end of each training round. 
+  Despite uplink failures, we show that FedPBC converges to a stationary point of the original non-convex objective. 
+  On the technical front, postponing the global model broadcasts enables implicit gossiping among the clients with active links in round t. 
+  In spite of the time-varying nature of <i>p</i><sub>i</sub><sup>t</sup>, we can bound the perturbation of the global model dynamics using techniques to control gossip-type information mixing errors. 
+  Extensive experiments have been conducted on real-world datasets over diversified unreliable uplink patterns to corroborate our analysis.
+  </p>
+  }
+}
+
+@inproceedings{xiang2024efficient,
 selected=true,
 abbr={NeurIPS 2024},
 bibtex_show={true},
@@ -24,15 +53,6 @@ We corroborate our analysis with numerical experiments over diversified client u
 arxiv={2409.17446}
 }
 
-
-@article{xiang2024empowering,
-abbr={Submitted},
-title={Empowering Federated Learning with Implicit Gossiping: Mitigating Connection Unreliability Amidst Unknown and Arbitrary Dynamics},
-author={Xiang, Ming and Ioannidis, Stratis and Yeh, Edmund and Joe-Wong, Carlee and Su, Lili},
-year={2024},
-publisher={IEEE},
-arxiv={2404.10091}
-}
 
 @article{Su2023adversarial,
 abbr={Submitted},
