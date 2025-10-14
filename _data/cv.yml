@@ -37,9 +37,9 @@
   contents:
     - title: PhD Software Engineering Intern
       institution: Uber Technology Inc., Seattle, WA
-      year: 2025/06 - 2025/08
-      # description:
-      #   - Description 1.
+      year: 2025.06 - 2025.08
+      description:
+        - Proposed and implemented a machine learning operations system from scratch for infrastructure health diagnosis.
       #   - Description 2.
       #   - title: Description 3.
       #     contents:
@@ -47,9 +47,9 @@
       #       - Sub-description 2.
     - title: PhD Research Intern
       institution: Cash App, Boston, MA
-      year: 2025/02 - 2025/05
-      # description:
-      #   - Description 1.
+      year: 2025.02 - 2025.05
+      description:
+        - Developed a safe transaction data release framework using differentially private generative models.
       #   - Description 2.
 
 #     - title: Director
