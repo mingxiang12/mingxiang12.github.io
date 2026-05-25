@@ -20,11 +20,10 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am a 5th-year (final-year) ECE Ph.D. candidate in the Center for *Signal Processing, Imaging, Reasoning, and Learning* <a href='https://web.northeastern.edu/spiral/'>(SPIRAL)</a>, affiliated with the <a href='https://ece.northeastern.edu/'>Department of Electrical and Computer Engineering</a> at Northeastern University in Boston, MA. I am fortunate to be advised by <a href='https://lilisu3.sites.northeastern.edu'> Prof. Lili Su</a>. I received my B.S. and M.S. degrees in Electrical Engineering from Wuhan Univeristy.
+I am a final-year ECE Ph.D. candidate in the Center for *Signal Processing, Imaging, Reasoning, and Learning* <a href='https://web.northeastern.edu/spiral/'>(SPIRAL)</a>, affiliated with the <a href='https://ece.northeastern.edu/'>Department of Electrical and Computer Engineering</a> at Northeastern University in Boston, MA. I am fortunate to be advised by <a href='https://lilisu3.sites.northeastern.edu'> Prof. Lili Su</a>. I received my B.S. and M.S. degrees in Electrical Engineering from Wuhan Univeristy.
 
 My research interest lies at the intersection of optimization, distributed computing, fault-tolerance and machine learning. 
 In general, the goal is to design statistical-sound distributed algorithms that are also robust to system faults and efficient in implementation at the same time. 
 Faults may arise from various sources, including communication issues, hardware/software constraints, malfunctions, etc.
 
-I am open to collaboration and **full-time software and research engineering jobs .**
 If you find my research interesting, please feel free to send me an <a href="mailto:xiang.mi@northeastern.edu"> email</a>.
