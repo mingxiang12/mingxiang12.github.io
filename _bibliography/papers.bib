@@ -1,9 +1,85 @@
 ---
 ---
 @string{ieee = {IEEE}}
+@string{acm = {ACM}}
+
+@inproceedings{xiang2026efficient,
+selected=true,
+abbr={NeurIPS 2026},
+bibtex_show={true},
+booktitle={The 40th Annual Conference on Neural Information Processing Systems (NeurIPS)},
+title={Efficient Federated Learning against Heterogeneous and Non-stationary Client Unavailability},
+author={Xiang, Ming and Ioannidis, Stratis and Yeh, Edmund and Joe-Wong, Carlee and Su, Lili},
+year={2026},
+abstract={
+<p>
+Real-world deployment of federated learning (FL) requires resilience against adversarial clients and data privacy. 
+Byzantine fault captures the worst-case behavior of adversarial clients, while differential privacy (DP) provides statistical guarantees against privacy loss. 
+In particular, user-level DP guards a client's entire contribution and provides more realistic protection against information leakage. 
+Despite intensive efforts, the minimax-optimal convergence bound of Byzantine-resilient FL with user-level DP remains open. 
+We establish an information-theoretic lower bound for any Byzantine-resilient empirical risk minimization problem under user-level DP and heterogeneous clients. 
+We propose ByzULDP, a central DP algorithm featuring a two-level momentum across the client and server. 
+Client-side momentum mitigates stochastic gradient variance during robust aggregation. 
+Unlike the fault-free case, naively combining non-linear Byzantine-resilient aggregation with central DP noise can be insufficient to guarantee convergence to a bounded neighborhood of a stationary point. 
+Our key contribution is a server-side momentum that leverages a property specific to user-level DP, where privacy sensitivity depends on how client updates are constructed, to empower convergence. 
+ByzULDP achieves the order-optimal convergence bound for strongly-convex objectives, with vanishing error terms decaying at the optimal O(1/T) and O(1/$\sqrt{T}$) rates for strongly-convex and non-convex objectives, respectively. 
+We corroborate our analysis with numerical experiments on real-world datasets across diverse privacy budgets.
+</p>
+},
+arxiv={2611.10898}
+}
+
+@ARTICLE{xiang2026resilient,
+  selected=true,
+  abbr={JMLR},
+  author={Xiang, Ming and Ioannidis, Stratis and Yeh, Edmund and Joe-Wong, Carlee and Su, Lili},
+  journal={Journal of Machine Learning Research},
+  title={Empowering Federated Learning With Implicit Gossiping: Mitigating Connection Unreliability Amidst Unknown and Arbitrary Dynamics}, 
+  year={2026},
+  volume={27},
+  number={},
+  pages={1-73},
+  bibtex_show={true},
+  arxiv={2609.04763},
+  abstract={
+  <p>
+  Due to resource constraints or external and internal uncertainties, clients in real-world federated learning systems are often intermittently available edge devices. 
+  In highly dynamic environments, the parameter server lacks prior real-time knowledge of clients' availability, making it challenging to adapt traditional federated learning algorithms to be resilient to uncertainties in client availability. 
+  If not carefully addressed, complex client availability can introduce significant bias, potentially harming the performance of the trained model. 
+  Most prior work either fails to account for non-stationary client availability dynamics or demands significant memory and computational overhead. 
+  This paper aims to develop efficient federated learning algorithms that are provably resilient to heterogeneous and non-stationary stochastic client availability. 
+  We propose FedSWE, which admits novel algorithmic structures to (i) compensate for missed computations, (ii) stabilize and diffuse the global updates over rounds, and (iii) evenly mix the local updates through implicit gossiping, despite being agnostic to non-stationary dynamics. Compared with the standard FedAvg, FedSWE introduces light additional memory and computation overhead. 
+  We show that FedSWE converges to a stationary point of non-convex objectives while achieving the desired linear speedup property in certain special cases. 
+  We corroborate our analysis with numerical experiments over diversified client unavailability dynamics on real-world data sets.
+  </p>
+  }
+}
+
+@inproceedings{xiang2026ota,
+selected=true,
+abbr={MobiHoc 2026},
+bibtex_show={true},
+booktitle={Proceedings of the Twenty-seventh International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing},
+title={Towards Bias Correction of FedAvg over Nonuniform and Time-Varying Communications},
+author={Xiang, Ming and Michelusi, Nicolo and Eldar, Yonina and Su, Lili},
+year={2026},
+abstract={
+<p>
+Over-the-air computation has emerged as a scalable and efficient solution for deploying federated learning algorithms in wireless networks by exploiting waveform superposition for simultaneous model aggregation. 
+Most existing work struggles with heterogeneous fading channels. 
+These approaches either enforce unbiased updates from all devices or allow partial device contributions, requiring careful tuning of the convergence bound to mitigate bias under specific fading models. 
+However, the former significantly amplifies receiver noise due to the weakest channel, whereas the latter is sensitive to fading model mismatch and converges only to a biased objective. 
+To tackle these challenges, we propose FedOAG, which employs algorithmic components to automatically satisfy energy constraints via gradient normalization and evenly mix devices' updates through implicit gossiping. 
+Importantly, FedOAG does not require transmission from all devices, nor does it rely on a specific fading model or knowledge of time-varying statistical channel distributions. 
+We show that FedOAG converges to a stationary point of an unbiased non-convex objective at the best possible rate O(1/$\sqrt{T}$) for any stochastic first-order method. 
+We corroborate our analysis with numerical experiments over dynamic wireless conditions on real-world datasets.
+</p>
+},
+arxiv={2609.32832},
+publisher = acm
+}
 
 @ARTICLE{xiang2024empowering,
-  selected={true},
   abbr={IEEE TSP},
   author={Xiang, Ming and Ioannidis, Stratis and Yeh, Edmund and Joe-Wong, Carlee and Su, Lili},
   journal={IEEE Transactions on Signal Processing}, 
@@ -67,7 +143,6 @@ arxiv={2305.19971}
 }
 
 @inproceedings{xiang2023towards,
-selected=true,
 abbr={CDC 2023},
 bibtex_show={true},
 booktitle={2023 IEEE 62st Conference on Decision and Control (CDC)},
